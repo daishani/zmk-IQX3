@@ -68,10 +68,10 @@
         Number {
             label = "Number";
             bindings = <
-  &kp ESC    &kp N1  &kp N2    &kp N3     &kp DOT    &kp Y          &kp U           &kp MINUS   &kp EQUAL  &kp N0
-  &kp LSHFT  &kp N4  &kp N5    &kp N6     &kp N0     &kp H          &kp J           &kp LBKT    &kp RBKT   &kp BSLH
-  &kp LGUI   &kp N7  &kp N8    &kp N9     &kp BSPC   &kp C_VOL_DN   &kp C_VOL_UP    &kp SEMI    &kp APOS   &kp DEL
-                     &kp LALT  &kp LCTRL  &kp SPACE  &kp BSPC       &kp ENTER       &kp DELETE
+  &kp ESC    &kp N1  &kp N2    &kp N3     &kp DOT    &kp Y         &kp U         &kp MINUS   &kp EQUAL  &kp N0
+  &kp LSHFT  &kp N4  &kp N5    &kp N6     &kp N0     &kp H         &kp J         &kp LBKT    &kp RBKT   &kp BSLH
+  &kp LGUI   &kp N7  &kp N8    &kp N9     &kp BSPC   &kp C_VOL_DN  &kp C_VOL_UP  &kp SEMI    &kp APOS   &kp DEL
+                     &kp LALT  &kp LCTRL  &kp SPACE  &kp BSPC      &kp ENTER     &kp DELETE
             >;
         };
 
@@ -102,33 +102,6 @@
   &mt LA(LC(A)) LC(A)  &kp LC(S)      &kp LG(D)      &kp LC(F)  &kp LG(L)     &trans  &kp LC(J)  &trans  &trans  &trans
   &kp LC(Z)            &kp LC(X)      &kp LC(C)      &kp LC(V)  &kp LC(B)     &trans  &trans     &trans  &trans  &trans
                                       &kp TAB        &trans     &kp LEFT_ALT  &trans  &trans     &trans
-            >;
-        };
-
-        layer_x {
-            bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_6 {
-            bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_7 {
-            bindings = <
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
