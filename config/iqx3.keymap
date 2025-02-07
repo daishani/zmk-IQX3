@@ -79,5 +79,14 @@
                      &kp LALT  &kp TAB  &kp SPACE  &trans        &trans        &trans
             >;
         };
+
+        layer_4 {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
     };
 };
